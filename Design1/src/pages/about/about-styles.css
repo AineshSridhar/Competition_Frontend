@@ -1,0 +1,55 @@
+/* Add or reuse styling as necessary */
+body {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #bb4040;
+    color: white;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.startcamp {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #7b0303;
+}
+
+.about_section, .our_mission, .our_vision, .our_values, .contact_section {
+    margin: 40px 100px;
+}
+
+h1, h2 {
+    color: #bb4040;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #bb4040;
+}
+
+.contact_link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bb4040;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
