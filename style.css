@@ -156,7 +156,15 @@
     border: 2px #bb4040 solid;
     border-radius: 10px;
     padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.desc_section:hover{
+    transform:scale(1.05);
+    transform:translate(-5px, -10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 
 .desc_section hr{
     margin: 15px 0;
@@ -166,7 +174,7 @@
 .news_section {
     margin-top: 40px;
     padding: 40px 100px;
-    background-color: rgb(228, 227, 227);
+    background-color: rgb(246, 246, 246);
 }
 
 .news_section h1 {
