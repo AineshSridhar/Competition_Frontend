@@ -48,7 +48,7 @@
 
 .startcamp {
     background-color: rgb(123, 3, 3);
-    color: white;
+    color: white !important;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -106,4 +106,33 @@
 
 .text-container p {
     line-height: 1.6;
+}
+
+.navbar-bottom {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 1.9;
+    margin-top: 40px;
+    background-color: #000000;
+    padding: 20px;
+    display: flex; 
+    gap:10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container-content{
+    width: 700px;  
+}
+
+.navbar-bottom-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar-bottom-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
