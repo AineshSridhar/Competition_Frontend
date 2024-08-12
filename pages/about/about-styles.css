@@ -5,31 +5,54 @@ body {
     padding: 0;
 }
 
-.navbar {
+.navbar-rest {
     width: 100%;
+    top: 0;
     display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    background-color: #bb4040;
-    color: white;
+    height: 80px;
+    background-color: #f8f8f8; /* Add background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
 }
 
 .navbar-center {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 50px;
 }
 
-.navbar a {
-    color: white;
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.navbar-rest a {
+    color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .startcamp {
+    background-color: rgb(123, 3, 3);
+    color: white !important;
     padding: 10px 20px;
-    border-radius: 15px;
-    background-color: #7b0303;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .about_section, .our_mission, .our_vision, .our_values, .contact_section {
@@ -52,4 +75,33 @@ hr {
     color: white;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.navbar-bottom {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 1.9;
+    margin-top: 40px;
+    background-color: #000000;
+    padding: 20px;
+    display: flex; 
+    gap:10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container-content{
+    width: 700px;  
+}
+
+.navbar-bottom-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar-bottom-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
